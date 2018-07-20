@@ -1,0 +1,108 @@
+<html>
+
+<head>
+	<link href="main.css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+
+<body>
+	<script src="InventoryManagement.js" type="text/javascript"></script>
+	<script src="Item.js" type="text/javascript"></script>
+	<script src="EquippableItem.js" type="text/javascript"></script>
+	<script src="NonEquippableItem.js" type="text/javascript"></script>
+	<script src="ConsumableItem.js" type="text/javascript"></script>
+	<script src="Potion.js" type="text/javascript"></script>
+	<script src="Weapon.js" type="text/javascript"></script>
+	<script src="Sword.js" type="text/javascript"></script>
+	<script src="OffHand.js" type="text/javascript"></script>
+	<script src="AttackingOffHand.js" type="text/javascript"></script>
+	<script src="DefensiveOffHand.js" type="text/javascript"></script>
+	<script src="Shield.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+	
+	<div id="activeColumn">
+		<div id="backgroundScreen">
+			<div id="inventorySpace">
+				<div id="zeroth">
+					<div id="Holder0" class="holder">
+						
+					</div>
+					<div id="Holder0Number" class="numberInArray">
+					
+					</div>
+					
+				</div>
+				<div id="first">
+					<div id="Holder1" class="holder">
+						
+					</div>
+					<div id="Holder1Number" class="numberInArray">
+						
+					</div>
+					
+				</div>
+				<div id="second">
+					<div id="Holder2" class="holder">
+						
+					</div>
+					<div id="Holder2Number" class="numberInArray">
+					
+					</div>
+					
+				</div>
+				<div id="third">
+					<div id="Holder3" class="holder">
+						
+					</div>
+					<div id="Holder3Number" class="numberInArray">
+					
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="yaoMing">
+		<div id="yaoPicture">
+		
+		</div>
+		<div id="yaoButtons">
+			<button id="addYao" onclick="inventory.addItem(shield)"> Add to Inventory</button>
+			<button id="removeYao" onclick="inventory.removeItem(shield)">Remove from Inventory</button>
+		</div>
+	</div>
+	
+	<div id="bluePotion">
+		<div id="bluePotionPic">
+		
+		</div>
+		<div id="bluePotionButtons">
+			<button id="addBluePotion" onclick="inventory.addItem(potion)"> Add to Inventory</button>
+			<button id="removeBluePotion" onclick="inventory.removeItem(potion)">Remove from Inventory</button>
+		</div>
+	</div>
+	
+	<div id="spork">
+		<div id="sporkPicture">
+		
+		</div>
+		<div id="sporkButtons">
+			<button id="addSpork" onclick="inventory.addItem(sword)"> Add to Inventory</button>
+			<button id="removeSpork" onclick="inventory.removeItem(sword)">Remove from Inventory</button>
+		</div>
+	</div>
+	
+	<div id="kale">
+		<div id="kalePicture">
+		
+		</div>
+		<div id="kaleButtons">
+			<button id="addKale" onclick="inventory.addItem(kale)"> Add to Inventory</button>
+			<button id="removeKale" onclick="inventory.removeItem(kale)">Remove from Inventory</button>
+		</div>
+	</div>
+</body>
+
+
+</html>
